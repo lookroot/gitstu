@@ -1,13 +1,23 @@
+# Compiled class file
+*.class
 
-# 忽略指定文件
-/it.pdf
-# 略忽指定后缀的文件 *.xx
-*.pf
-# 独单列出不用忽略的文件
-!readme.pdf
-# 忽略文件夹
-pdf/
-# 忽略某个文件夹下面的某些文件
-pdf/*.pdf
-# 忽略嵌套文件夹的某些文件
-pdf/**/*.pdf
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
